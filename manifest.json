@@ -8,10 +8,6 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": [
-    "scripting",
-    "tabs"
-  ],
   "host_permissions": [
     "http://127.0.0.1:6137/*"
   ],
