@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "QuantumAuth Connector",
+  "short_name": "QuantumAuth",
   "description": "Connects web apps to the local QuantumAuth client.",
   "version": "0.1.0",
   "icons": {
