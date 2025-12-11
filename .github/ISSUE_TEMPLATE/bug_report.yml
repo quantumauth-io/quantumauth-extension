@@ -1,0 +1,45 @@
+name: "Bug Report"
+description: "Report a problem with the QuantumAuth extension or client"
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem
+      placeholder: What happened? What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to...
+        2. Click...
+        3. See error...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Brave
+        - Edge
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Error messages
+      description: Paste any logs from chrome://extensions or the QA client.

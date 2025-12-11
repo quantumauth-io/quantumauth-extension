@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: QuantumAuth Documentation
+    url: https://docs.quantumauth.io
+    about: Read the official documentation.
+  - name: QuantumAuth Discussions
+    url: https://github.com/quantumauth-io/quantum-auth/discussions
+    about: Ask questions or start a discussion.

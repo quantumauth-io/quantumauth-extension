@@ -1,0 +1,24 @@
+{
+  "data_collection": {
+    "does_collect": false,
+    "collects": []
+  },
+  "data_sharing": {
+    "does_share": false,
+    "shares": []
+  },
+  "data_sale": {
+    "does_sell": false
+  },
+  "remote_code": {
+    "uses_remote_code": false
+  },
+  "permissions": {
+    "declared_permissions": [
+      "nativeMessaging"
+    ],
+    "justification": {
+      "nativeMessaging": "Required to communicate with the local QuantumAuth Client running on the user's device. No data is collected, stored, or transmitted to third parties."
+    }
+  }
+}

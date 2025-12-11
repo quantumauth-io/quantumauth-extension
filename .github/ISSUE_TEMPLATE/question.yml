@@ -1,0 +1,11 @@
+name: "Question"
+description: "Ask a question about usage, integration, or security"
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: Ask anything related to QuantumAuth.
+    validations:
+      required: true

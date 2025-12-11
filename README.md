@@ -2,5 +2,5 @@
 
 
 ```bash
-1zip -r quantumauth-extension.zip .
+zip -r quantumauth-extension.zip .
 ```

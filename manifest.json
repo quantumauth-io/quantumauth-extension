@@ -12,6 +12,17 @@
   "host_permissions": [
     "http://127.0.0.1:6137/*"
   ],
+  "privacy_policy": {
+    "data_usage": {
+      "collects_data": false,
+      "shares_data": false,
+      "sells_data": false
+    },
+    "permissions": {
+      "uses_remote_hosted_code": false,
+      "uses_safe_browsing_api": false
+    }
+  },
   "background": {
     "service_worker": "background.js"
   },

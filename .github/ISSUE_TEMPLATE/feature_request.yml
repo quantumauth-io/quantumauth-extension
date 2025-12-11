@@ -1,0 +1,17 @@
+name: "Feature Request"
+description: "Suggest an improvement for QuantumAuth"
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      placeholder: What feature do you want? Why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      placeholder: How would this improve your workflow or integration?
